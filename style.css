@@ -678,6 +678,122 @@ img { max-width:100%; display:block; }
   font-size: 1rem;
 }
 .footer-socials a:hover { color: var(--accent); }
+/* ========== CERTIFICATIONS ========== */
+.certs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+.cert-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  text-align: center;
+  transition: all var(--transition);
+}
+.cert-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(108,92,231,0.1);
+}
+.cert-card i {
+  font-size: 2rem;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+.cert-card h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+/* ========== EDUCATION ========== */
+.edu-card {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px;
+  transition: border-color var(--transition);
+}
+.edu-card:hover {
+  border-color: var(--accent);
+}
+.edu-icon {
+  width: 60px; height: 60px;
+  border-radius: 50%;
+  background: rgba(108,92,231,0.1);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.5rem;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+.edu-info h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.edu-school {
+  color: var(--accent-light);
+  font-size: 0.9rem;
+}
+.edu-year {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-family: var(--font-mono);
+  margin-top: 2px;
+}
+
+/* ========== LANGUAGES ========== */
+.lang-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.lang-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  transition: border-color var(--transition);
+}
+.lang-card:hover {
+  border-color: var(--accent);
+}
+.lang-name {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.lang-level {
+  font-size: 0.8rem;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+.lang-level.native {
+  background: rgba(0, 206, 201, 0.1);
+  color: var(--green);
+  border: 1px solid rgba(0, 206, 201, 0.3);
+}
+.lang-level.advanced {
+  background: rgba(108, 92, 231, 0.1);
+  color: var(--accent-light);
+  border: 1px solid rgba(108, 92, 231, 0.3);
+}
+.lang-level.beginner {
+  background: rgba(255, 165, 0, 0.1);
+  color: #f0a030;
+  border: 1px solid rgba(255, 165, 0, 0.3);
+}
 
 /* ========== ANIMATIONS ========== */
 @keyframes fadeInUp {
