@@ -2,11 +2,6 @@
 
 پرتال شخصی رزومه و مهارت‌های ارشیا — مهندس نرم‌افزار Senior و معمار راهکار
 
-## 🌐 دسترسی
-
-- **GitHub Pages:** https://arshiay.github.io/cvportal
-- **Repository:** https://github.com/arshiay/cvportal
-
 ## 🛠 تکنولوژی‌ها
 
 - HTML5
@@ -33,19 +28,6 @@ cvportal/
 ├── script.js     # اسکریپت‌ها
 └── README.md     # این فایل
 ```
-
-## 🚀 دیپلوی (GitHub Pages)
-
-برای انتشار روی GitHub Pages:
-
-```
-git push origin main
-```
-
-سپس در GitHub:
-1. برو به Settings > Pages
-2. منبع رو روی `main` و روت `/` بذار
-3. ذخیره کن
 
 <div dir="rtl">
 
